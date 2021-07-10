@@ -9,3 +9,6 @@ Trilha React Native
 
 # Expo
 
+expo init plantmanager
+
+>blank (TypeScript)
