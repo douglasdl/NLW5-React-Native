@@ -12,3 +12,10 @@ Trilha React Native
 expo init plantmanager
 
 >blank (TypeScript)
+
+cd plantmanager
+
+code .
+
+expo start
+
