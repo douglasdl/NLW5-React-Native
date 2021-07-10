@@ -1,15 +1,10 @@
-import React, { useState } from 'react';
-import { Text, SafeAreaView, Image, StyleSheet, View } from 'react-native';
+import { Text, SafeAreaView, Image, StyleSheet, Dimensions } from 'react-native';
 import wateringImg from '../assets/watering.png';
-import colors from '../../styles/colors';
+import colors from '../styles/colors';
 import { Button } from '../components/Button';
+import { Entypo } from '@expo/vector-icons'
 
 export function Welcome() {
-    const [visible, setVisible] = useState(true);
-
-    function handleVisibility() {
-        setVisible(!visible);
-    }
     return (
         <SafeAreaView style={styles.container}>
             <Text style={styles.title}>
@@ -18,19 +13,22 @@ export function Welcome() {
                 de forma fácil
             </Text>
 
-            {
-                visible &&
-                <Image source={wateringImg} style={styles.image} />
-            }
+            <Image 
+                source={wateringImg} 
+                style={styles.image} 
+                resizeMode='contain'
+            />
 
             <Text style={styles.subtitle}>
                 Não esqueça mais de regar suas plantas. 
                 Nós cuidamos de lembrar você sempre que precisar.
             </Text>
 
+            <Text>
+                <Entypo name='chevron-thin-right'/>
+            </Text>
             <Button title='>' />
-        </SafeAreaView>
-        
+        </SafeAreaView>    
     )
 }
 
@@ -54,8 +52,6 @@ const styles = StyleSheet.create({
         color: colors.heading,
     },
     image: {
-        width: 292,
-        height: 284,
-
+        height: Dimensions.get('window').width * 0.7,
     },
 });
