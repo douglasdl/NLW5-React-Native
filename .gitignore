@@ -1,0 +1,13 @@
+plantmanager/node_modules/
+plantmanager/.expo/
+plantmanager/npm-debug.*
+plantmanager/*.jks
+plantmanager/*.p8
+plantmanager/*.p12
+plantmanager/*.key
+plantmanager/*.mobileprovision
+plantmanager/*.orig.*
+plantmanager/web-build/
+
+# macOS
+plantmanager/.DS_Store
