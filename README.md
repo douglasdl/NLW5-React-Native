@@ -36,3 +36,23 @@ yarn add react-native-reanimated react-native-gesture-handler react-native-scree
 
 yarn add @react-navigation/stack
 
+yarn add react-native-iphone-x-helper
+
+yarn add axios
+
+IP da Máquina
+ipconfig getifaddr en0
+
+npm install -g json-server
+
+./src/services/server.json --host 192.168.xxx.xxx --port 3333
+
+Simulate API Server Delay
+./src/services/server.json --host 192.168.xxx.xxx --port 3333 --delay 700
+
+expo install react-native-svg
+
+
+[LottieFiles](https://lottiefiles.com/)
+
+expo install lottie-react-native
