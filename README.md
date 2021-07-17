@@ -56,3 +56,12 @@ expo install react-native-svg
 [LottieFiles](https://lottiefiles.com/)
 
 expo install lottie-react-native
+
+expo install @react-native-async-storage/async-storage
+
+expo install @react-native-community/datetimepicker
+
+yarn add date-fns
+
+yarn add @react-navigation/bottom-tabs
+
