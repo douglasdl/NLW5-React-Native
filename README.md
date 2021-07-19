@@ -65,3 +65,7 @@ yarn add date-fns
 
 yarn add @react-navigation/bottom-tabs
 
+expo install expo-notifications
+
+expo install react-native-shared-element
+
